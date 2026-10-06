@@ -33,13 +33,14 @@ It wrote the code, ran away, and now the game is unplayable.
 
 Describe your fixed game in numbered steps so a reader can follow along without watching a video:
 
-1. <!-- Describe this step -->
-2. <!-- Describe this step -->
-3. <!-- Describe this step -->
-4. <!-- Describe this step -->
-5. <!-- Add more steps as needed -->
+1. User enters 22 in input box
+2. Output msg of Go Higher
+3. User enters 50 and the game outputs Go Higher
+4. User enters 201 and the game results Guess must be between 1 and 200
+5. User enters 107 and system outpus You won!
+6. Game ends after guess is correct
 
-**Screenshot** *(optional)*: <!-- Insert a screenshot of your fixed, winning game here -->
+
 
 ## 🧪 Test Results
 
@@ -48,6 +49,9 @@ Describe your fixed game in numbered steps so a reader can follow along without 
 # pytest tests/
 # ========================= X passed in 0.XXs =========================
 ```
+tests\test_game_logic.py .............                                                                                       [100%]
+
+======================================================= 13 passed in 0.08s ========================================================
 
 ## 🚀 Stretch Features
 
